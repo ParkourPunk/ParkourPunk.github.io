@@ -1,23 +1,28 @@
-body{
-	background-color:black;
+body {
+  background-blend-mode: overlay;
+  background-color: black;
 }
+
 .box {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #555;
-    text-align: center;
-    
+  padding-top: 80px;
+  padding-bottom: 80px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+  text-align: center;
+
 }
+
 .box-master {
-    padding-top: 180px;
-    padding-bottom: 380px;
-    height: 100vh;
+  
+  padding-bottom: 380px;
+  height: 100vh;
+
 }
+
 .row {
-    margin-right: -15px;
-    margin-left: -15px;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
 h1,
@@ -44,13 +49,9 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-@media only screen and (max-device-width: 1366px) {
-  .parallax {
-    background-attachment: scroll;
-  }
+ul {
+  list-style-type: none;
 }
-
 .overlay {
   position: absolute;
   bottom: 0;
@@ -105,11 +106,12 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
 .masthead {
-height: 100vh;
-min-height: 500px;
-background-image: url('Top.png');
-background-size: cover;
-background-position: center;
-background-repeat: no-repeat;
+  height: 100vh;
+  min-height: 500px;
+  background-image: url('Top.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
