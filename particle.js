@@ -4,7 +4,7 @@ function Particle() {
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
     this.maxspeed = 4;
-    this.h = 15;
+    this.h = 150;
   
     this.prevPos = this.pos.copy();
   
